@@ -1,0 +1,23 @@
+/* Locally supplied factory photography for Home and Products. */
+.hero-photo {
+  background-image: url("images/factory-1.jpg");
+  background-position: center 48%;
+}
+
+.product-hero::before {
+  background-image: linear-gradient(90deg, rgba(8, 27, 43, .96), rgba(10, 34, 52, .76) 60%, rgba(11, 35, 52, .35)), url("images/factory-1.jpg");
+}
+
+.end-image,
+.detail-photo.end-image {
+  background-image: url("images/factory-1.jpg");
+}
+
+.tab-image,
+.detail-photo.tab-image {
+  background-image: url("images/factory-2.jpg");
+}
+
+.feature-visual {
+  background: linear-gradient(90deg, #112d45 0%, rgba(17, 45, 69, .42) 70%), url("images/factory-2.jpg") center / cover;
+}
